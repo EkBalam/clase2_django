@@ -6,4 +6,4 @@ class Pregunta(models.Model):
     fecha_pub = models.DateTimeField('Fecha de publicación')
 
     def __str__(self):
-        return self.texto_pregunta
+        return "Pregunta: " + self.texto_pregunta
